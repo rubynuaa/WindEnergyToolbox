@@ -52,7 +52,8 @@ def setup_package():
                       'xlwt',
                       'openpyxl',
                       'psutil',
-                      'six'] + sphinx
+                      'six',
+                      'sshtunnel'] + sphinx
     setup(install_requires=build_requires,
           setup_requires=build_requires,
           cmdclass={'build_ext': build_ext},
